@@ -2,11 +2,23 @@
     arrows: false,
     dots: true,
     cssEase: 'linear',
-    autoplay: true,
-    autoplaySpeed: 3000,
+    //autoplay: true,
+    //autoplaySpeed: 3000,
     //pauseOnHover: true,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+     responsive: [
+    {
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
   });
   $(function() {
   $(window).scroll(function() {
