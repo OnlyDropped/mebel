@@ -556,6 +556,18 @@ a {
   color: #000;
 }
 
+@media (max-width: 1440px) {
+  .header-content {
+    height: calc(100% - 69px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-content {
+    height: calc(100% - 69px);
+  }
+}
+
 @media (max-width: 768px) {
   .header-content {
     height: calc(100% - 69px);
